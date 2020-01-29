@@ -1,0 +1,472 @@
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   a
+        new file:   b
+        new file:   c
+        new file:   d
+        new file:   e
+        new file:   f
+        new file:   sum.java
+        new file:   sum.javai
+        new file:   sum1.java
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ ll
+total 3
+-rw-r--r-- 1 Suresh Naidu 197121   0 Jan 27 14:02 a
+-rw-r--r-- 1 Suresh Naidu 197121   0 Jan 27 14:02 b
+-rw-r--r-- 1 Suresh Naidu 197121   0 Jan 27 14:02 c
+-rw-r--r-- 1 Suresh Naidu 197121   0 Jan 27 14:02 d
+-rw-r--r-- 1 Suresh Naidu 197121   0 Jan 27 14:02 e
+-rw-r--r-- 1 Suresh Naidu 197121   0 Jan 27 14:02 f
+-rw-r--r-- 1 Suresh Naidu 197121   9 Jan 27 13:55 README.md
+-rw-r--r-- 1 Suresh Naidu 197121   0 Jan 28 11:06 sum.java
+-rw-r--r-- 1 Suresh Naidu 197121 129 Jan 28 10:37 sum.javai
+-rw-r--r-- 1 Suresh Naidu 197121  62 Jan 28 10:34 sum1.java
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ ls
+a  b  c  d  e  f  README.md  sum.java  sum.javai  sum1.java
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   a
+        new file:   b
+        new file:   c
+        new file:   d
+        new file:   e
+        new file:   f
+        new file:   sum.java
+        new file:   sum.javai
+        new file:   sum1.java
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git add .
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   a
+git status
+        new file:   b
+        new file:   c
+        new file:   d
+        new file:   e
+        new file:   f
+        new file:   sum.java
+        new file:   sum.javai
+cat         new file:   sum1.java
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git commit -m "my first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Suresh Naidu@LAPTOP-UUCV0MNG.(none)')
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git commit -m" my first java"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Suresh Naidu@LAPTOP-UUCV0MNG.(none)')
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git config --global user.name "Devobs1"
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git cinfig --global user.email "ippilisuresh.narisimha@gmail.com"
+git: 'cinfig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git commit -m "my first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Suresh Naidu@LAPTOP-UUCV0MNG.(none)')
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git commit -m "my first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Suresh Naidu@LAPTOP-UUCV0MNG.(none)')
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git cinfig --global user.email "ippilisuresh.narisimha@gmail.com"
+git: 'cinfig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git config --global user.email "ippilisuresh.narisimha@gmail.com"
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git commit -m "my first commit"
+[master 12841f4] my first commit
+ 9 files changed, 21 insertions(+)
+ create mode 100644 a
+ create mode 100644 b
+ create mode 100644 c
+ create mode 100644 d
+ create mode 100644 e
+ create mode 100644 f
+ create mode 100644 sum.java
+ create mode 100644 sum.javai
+ create mode 100644 sum1.java
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git push origin
+Logon failed, use ctrl+c to cancel basic credential prompt.
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   New Text Document.txt
+        new file:   java
+        new file:   oracle
+        new file:   suresh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        devops
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git reset oracle
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ cat> oracle
+jhdjdjnhjh
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   New Text Document.txt
+        new file:   java
+        new file:   suresh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        devops
+        oracle
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ ll
+total 14
+-rw-r--r-- 1 Suresh Naidu 197121    0 Jan 27 14:02  a
+-rw-r--r-- 1 Suresh Naidu 197121    0 Jan 27 14:02  b
+-rw-r--r-- 1 Suresh Naidu 197121    0 Jan 27 14:02  c
+-rw-r--r-- 1 Suresh Naidu 197121    0 Jan 27 14:02  d
+-rw-r--r-- 1 Suresh Naidu 197121    0 Jan 28 12:42  devops
+-rw-r--r-- 1 Suresh Naidu 197121    0 Jan 27 14:02  e
+-rw-r--r-- 1 Suresh Naidu 197121    0 Jan 27 14:02  f
+-rw-r--r-- 1 Suresh Naidu 197121   29 Jan 28 12:36  java
+-rw-r--r-- 1 Suresh Naidu 197121 5599 Jan 28 11:43 'New Text Document.txt'
+-rw-r--r-- 1 Suresh Naidu 197121   11 Jan 28 12:45  oracle
+-rw-r--r-- 1 Suresh Naidu 197121    9 Jan 27 13:55  README.md
+-rw-r--r-- 1 Suresh Naidu 197121    0 Jan 28 11:06  sum.java
+-rw-r--r-- 1 Suresh Naidu 197121  129 Jan 28 10:37  sum.javai
+-rw-r--r-- 1 Suresh Naidu 197121   62 Jan 28 10:34  sum1.java
+-rw-r--r-- 1 Suresh Naidu 197121   24 Jan 28 12:33  suresh
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ ls
+ a   b   c   d   devops   e   f   java  'New Text Document.txt'   oracle   README.md   sum.java   sum.javai   sum1.java   suresh
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   New Text Document.txt
+        new file:   java
+        new file:   suresh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        devops
+        oracle
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git add *
+warning: LF will be replaced by CRLF in oracle.
+The file will have its original line endings in your working directory
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   New Text Document.txt
+        new file:   devops
+        new file:   java
+        new file:   oracle
+        new file:   suresh
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git reset .
+git status
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New Text Document.txt
+        devops
+        java
+        oracle
+        suresh
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git add -A
+warning: LF will be replaced by CRLF in java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in oracle.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in suresh.
+The file will have its original line endings in your working directory
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+'On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   New Text Document.txt
+        new file:   devops
+        new file:   java
+        new file:   oracle
+        new file:   suresh
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ 'git reset *
+>
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status *
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   New Text Document.txt
+        new file:   devops
+        new file:   java
+        new file:   oracle
+        new file:   suresh
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   New Text Document.txt
+        new file:   devops
+        new file:   java
+        new file:   oracle
+        new file:   suresh
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git add --all
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   New Text Document.txt
+        new file:   devops
+        new file:   java
+        new file:   oracle
+        new file:   suresh
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git reset
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New Text Document.txt
+        devops
+        java
+        oracle
+        suresh
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git stage devops
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   devops
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New Text Document.txt
+        java
+        oracle
+        suresh
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status java oracle suresh
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        java
+        oracle
+        suresh
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   devops
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New Text Document.txt
+        java
+        oracle
+        suresh
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git stage java oracle suresh
+warning: LF will be replaced by CRLF in java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in oracle.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in suresh.
+The file will have its original line endings in your working directory
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   devops
+        new file:   java
+        new file:   oracle
+        new file:   suresh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New Text Document.txt
+
+
+Suresh Naidu@LAPTOP-UUCV0MNG MINGW64 /e/Git parctice/Devobs1 (master)
+$
